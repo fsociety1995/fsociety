@@ -3,11 +3,11 @@
 $stop = "nee";
 $teller = 1;
 
-while ( $stop == "nee" ) {
+while ( $stop == "nee") {
     
     echo "Dit is run $teller\n";
 
-    $stop = readline ("Wil je stoppen [ja/nee] : ");
+    $stop = strtolower(readline ("Wil je stoppen [ja/nee] : "));
     $teller++;
 }
 
