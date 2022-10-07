@@ -3,4 +3,6 @@ $weekdagen = array ('zondag','maandag','dinsdag','woensdag','donderdag','vrijdag
 
 echo $weekdagen[0];
 
+echo $weekdagen[6];
+
 ?>
