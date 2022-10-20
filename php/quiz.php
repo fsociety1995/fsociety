@@ -16,7 +16,7 @@ while ( $random != $gok) {
         echo "de bedoeling is wel tussen 1 en 100 \n";
         exit;
     }
-    
+            
     if ($gok >100){
         echo "de bedoeling is wel tussen 1 en 100  \n";
         exit;
